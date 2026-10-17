@@ -1,0 +1,234 @@
+.payment-container {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+  padding: 40px 20px;
+}
+
+.payment-card {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+}
+
+.payment-card h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.amount-box {
+  background: #f4f7fc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.amount-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.total-row {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #111;
+}
+
+.method-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.payment-option:hover {
+  background: #f7f9ff;
+}
+
+.payment-option input {
+  cursor: pointer;
+}
+
+.pay-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #4A1830;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.pay-btn:hover {
+  background: #4A1830;
+}
+
+.back-btn {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 14px;
+  margin-top: 8px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* =========================
+   SUCCESS
+========================= */
+
+.payment-success {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+}
+
+.success-card {
+  width: 400px;
+  background: white;
+  text-align: center;
+  padding: 45px 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+}
+
+.success-circle {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #22c55e;
+  color: white;
+
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.success-card h1 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.success-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+.success-sub {
+  margin-bottom: 25px;
+}
+
+.success-home-btn {
+  border: none;
+  background: #4A1830;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.success-home-btn:hover {
+  background: #4A1830;
+}
+/* =========================
+   COUPON
+========================= */
+
+.coupon-section {
+  margin-bottom: 20px;
+}
+
+.coupon-section h3 {
+  margin-bottom: 10px;
+}
+
+.coupon-box {
+  display: flex;
+  gap: 8px;
+}
+
+.coupon-box input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+}
+
+.coupon-box input:focus {
+  border-color: #172554;
+}
+
+.coupon-box button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #172554;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.coupon-box button:hover {
+  background: #0f1d45;
+}
+
+.coupon-success {
+  color: #16a34a;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.coupon-error {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.coupon-hint {
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* =========================
+   AMOUNT
+========================= */
+
+.discount {
+  color: #16a34a;
+}
+
+.amount-box hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
+}

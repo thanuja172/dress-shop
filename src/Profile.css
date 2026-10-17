@@ -1,0 +1,494 @@
+/* ==============================
+   PROFILE PAGE
+============================== */
+
+.profile-page {
+  min-height: 100vh;
+  background: #f7f3f5;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+
+
+/* ==============================
+   HEADER
+============================== */
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-header-icon {
+  font-size: 55px;
+  color: #4a1830;
+  margin-bottom: 8px;
+}
+
+.profile-header h1 {
+  margin: 0;
+  color: #4a1830;
+  font-size: 30px;
+}
+
+.profile-header p {
+  margin-top: 6px;
+  color: #777;
+}
+
+
+/* ==============================
+   MAIN CONTAINER
+============================== */
+
+.profile-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+
+/* ==============================
+   SIDEBAR
+============================== */
+
+.profile-sidebar {
+  width: 230px;
+  flex-shrink: 0;
+  background: #4a1830;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-profile {
+  background: #4a1830;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.sidebar-avatar {
+  font-size: 55px;
+  margin-bottom: 8px;
+}
+
+.sidebar-profile h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.sidebar-profile p {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+
+/* ==============================
+   SIDEBAR MENU
+============================== */
+
+.sidebar-menu {
+  padding: 15px 10px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 13px 15px;
+  margin-bottom: 8px;
+
+  text-decoration: none;
+  color: #555;
+
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar-item:hover {
+  background: #f1e6eb;
+  color: #4a1830;
+}
+
+.sidebar-item.active {
+  background: #4a1830;
+  color: white;
+}
+
+.sidebar-item svg {
+  font-size: 16px;
+}
+
+
+/* ==============================
+   MAIN CONTENT
+============================== */
+
+.profile-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.account-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.account-heading h2 {
+  margin: 0;
+  color: #4a1830;
+  font-size: 25px;
+}
+
+.account-heading p {
+  margin-top: 6px;
+  color: #777;
+}
+
+
+/* ==============================
+   ACCOUNT CARD
+============================== */
+
+.account-card {
+  background: white;
+  border-radius: 14px;
+  padding: 30px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.account-avatar {
+  width: 90px;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #f1e6eb;
+  color: #4a1830;
+
+  font-size: 65px;
+}
+
+.account-details {
+  flex: 1;
+}
+
+.account-details h2 {
+  margin: 0 0 5px;
+  color: #4a1830;
+}
+
+.welcome-text {
+  margin: 0 0 20px;
+  color: #777;
+}
+
+
+/* ==============================
+   DETAILS GRID
+============================== */
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.detail-box {
+  background: #faf7f8;
+  border: 1px solid #eee;
+  border-radius: 9px;
+
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detail-box span {
+  font-size: 12px;
+  color: #888;
+}
+
+.detail-box strong {
+  color: #4a1830;
+  font-size: 14px;
+}
+
+.status-active {
+  color: #218838 !important;
+}
+
+
+/* ==============================
+   ADDRESS SECTION
+============================== */
+
+.address-section {
+  margin-top: 22px;
+  padding-top: 20px;
+
+  border-top: 1px solid #eee;
+}
+
+.address-section h3 {
+  margin: 0 0 12px;
+  color: #4a1830;
+  font-size: 18px;
+}
+
+.address-section input {
+  width: 100%;
+  height: 42px;
+
+  padding: 0 12px;
+  box-sizing: border-box;
+
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+  font-size: 14px;
+  outline: none;
+}
+
+.address-section input:focus {
+  border-color: #4a1830;
+}
+
+
+/* ==============================
+   SAVE ADDRESS BUTTON
+============================== */
+
+.address-section button {
+  margin-top: 12px;
+
+  padding: 10px 22px;
+
+  background: #4a1830;
+  color: white;
+
+  border: none;
+  border-radius: 7px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.address-section button:hover {
+  background: #351022;
+}
+
+
+/* ==============================
+   QUICK ACTIONS
+============================== */
+
+.quick-section {
+  margin-top: 30px;
+}
+
+.quick-section h2 {
+  text-align: center;
+  color: #4a1830;
+  margin-bottom: 18px;
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.action-card {
+  background: white;
+  padding: 18px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+  color: #333;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  transition: 0.3s;
+}
+
+.action-card:hover {
+  transform: translateY(-3px);
+  border-color: #4a1830;
+}
+
+.action-icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 8px;
+
+  background: #4a1830;
+  color: white;
+
+  font-size: 18px;
+}
+
+.action-card h3 {
+  margin: 0 0 4px;
+  color: #4a1830;
+  font-size: 15px;
+}
+
+.action-card p {
+  margin: 0;
+  color: #888;
+  font-size: 12px;
+}
+
+
+/* ==============================
+   BOTTOM BUTTONS
+============================== */
+
+.shopping-section {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.continue-shopping,
+.logout-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  min-width: 160px;
+
+  padding: 11px 20px;
+
+  border-radius: 7px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.continue-shopping {
+  background: #4a1830;
+  color: white;
+}
+
+.logout-btn {
+  background: #4a1830;
+  color: white;
+}
+
+.continue-shopping:hover,
+.logout-btn:hover {
+  background: #351022;
+  transform: translateY(-2px);
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 900px) {
+
+  .profile-page {
+    padding: 25px;
+  }
+
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-sidebar {
+    width: 100%;
+  }
+
+  .sidebar-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .sidebar-item {
+    margin-bottom: 0;
+  }
+
+  .quick-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .profile-page {
+    padding: 15px;
+  }
+
+  .account-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .account-details {
+    width: 100%;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .shopping-section {
+    flex-direction: column;
+  }
+
+  .continue-shopping,
+  .logout-btn {
+    width: 100%;
+  }
+}
